@@ -28,7 +28,7 @@
         android:id="@+id/ll_login_container"
         style="@style/edittext_container_style"
         android:layout_below="@+id/tv_login_logo"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="90dp">
 
         <EditText
             android:id="@+id/login_user_name"
@@ -51,7 +51,7 @@
         android:layout_below="@id/ll_login_container"
         android:layout_marginEnd="130dp"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="35dp"
         android:background="#33000000" />
 
     <Button
@@ -59,7 +59,7 @@
         style="@style/login_button_style"
         android:layout_below="@id/iv_login_divider"
         android:layout_marginBottom="40dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="60dp"
         android:background="@drawable/btn_orange_background"
         android:text="Se Connecter" />
 </RelativeLayout>
